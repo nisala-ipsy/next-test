@@ -6,7 +6,7 @@ const navLinks = [
 
 const pillars = [
   {
-    title: "Terrain memory",
+    title: "Terrain memoryy",
     body: "We stitch satellite passes, trail journals, and weather windows into one living sheet—so the ground stays legible when plans shift.",
   },
   {
@@ -118,8 +118,8 @@ export default function Home() {
                   Field excerpt
                 </p>
                 <p className="mt-6 font-sans text-lg leading-relaxed text-parchment/95">
-                  &ldquo;The pass looked shorter on the glass. Your contour layer
-                  saved us a night above the tree line.&rdquo;
+                  &ldquo;The pass looked shorter on the glass. Your contour
+                  layer saved us a night above the tree line.&rdquo;
                 </p>
                 <p className="mt-6 text-sm text-mist">
                   — L. Okonkwo, alpine logistics lead
@@ -141,12 +141,11 @@ export default function Home() {
                 id="atlas-heading"
                 className="font-display text-3xl font-semibold tracking-tight md:text-4xl"
               >
-                The atlas is not the territory—but yours should breathe like
-                it.
+                The atlas is not the territory—but yours should breathe like it.
               </h2>
               <p className="mt-5 text-lg leading-relaxed text-mist">
-                Each engagement begins with interviews, then field sketches, then
-                a restrained digital layer you can annotate in the rain.
+                Each engagement begins with interviews, then field sketches,
+                then a restrained digital layer you can annotate in the rain.
               </p>
             </div>
             <ul className="mt-16 grid gap-6 md:grid-cols-3">
@@ -255,7 +254,13 @@ export default function Home() {
                     strokeLinecap="round"
                   />
                   <circle cx="60" cy="260" r="5" fill="#d4653a" />
-                  <circle cx="200" cy="160" r="4" fill="#e6dcc8" opacity="0.85" />
+                  <circle
+                    cx="200"
+                    cy="160"
+                    r="4"
+                    fill="#e6dcc8"
+                    opacity="0.85"
+                  />
                   <circle cx="340" cy="80" r="5" fill="#d4653a" />
                   <path
                     d="M 52 48 h 80 M 52 58 h 120 M 52 68 h 60"
