@@ -6,7 +6,7 @@ const navLinks = [
 
 const pillars = [
   {
-    title: "Terrain memory",
+    title: "Terrain memoryyyyyy",
     body: "We stitch satellite passes, trail journals, and weather windows into one living sheet—so the ground stays legible when plans shift.",
   },
   {
